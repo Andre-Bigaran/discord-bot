@@ -7,6 +7,7 @@ const client = new Discord.Client({
     Discord.Intents.FLAGS.GUILD_VOICE_STATES
   ]
 })
+
 const fs = require('fs')
 const config = require('./config.json')
 const { SpotifyPlugin } = require('@distube/spotify')
